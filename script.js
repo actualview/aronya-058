@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'Tricera',
             location: {
-                lat: 35.145699,
-                lng: 129.137483,
+                lat: 35.152537,
+                lng: 129.137995,
             }
         },
     ];
@@ -23,7 +23,7 @@ function renderPlaces(places) {
         let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-entity-place', `latitude: ${35.145699}; longitude: ${129.137483};`);
+        model.setAttribute('gps-entity-place', `latitude: ${35.152537}; longitude: ${129.137995};`);
         model.setAttribute('gltf-model', './assets/tricera.gltf');
         model.setAttribute('rotation', '0 15 0');
         model.setAttribute('animation-mixer', '');
